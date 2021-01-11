@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="inputName" value="senthil"/>
+  <parameter name="address" value="srinivastowers"/>
+  <parameter name="city" value="pondy"/>
+  <parameter name="state" value="pondy"/>
+  <parameter name="zipCode" value="605010"/>
+  <parameter name="cardType" value="visa"/>
+  <parameter name="creditCardNumber" value="123451231589"/>
+  <parameter name="creditCardMonth" value="10"/>
+  <parameter name="creditCardYear" value="2021"/>
+  <parameter name="nameOnCard" value="senthil kumaran"/>
+ 
+    <classes>
+      <class name="org.blazedemo.TestCode"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
